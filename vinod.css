@@ -1,0 +1,213 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+body{
+  position: relative;
+}
+
+ul{
+  position:absolute;
+  width: 100%;
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  margin-top: 10px;
+
+}
+
+ul li a{
+  text-decoration: none;
+  color: grey;
+}
+
+ul li:nth-child(1){
+  margin-left: 220px;
+}
+ul li:nth-child(2){
+  margin-left: 580px;
+}
+ul li:nth-child(3){
+  margin-left: 50px;
+}
+
+#services{
+  position: absolute;
+  top: 50px;
+  left: 220px;
+  color: grey;
+}
+
+.headDiv{
+  position: absolute;
+  top: 70px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background: #ff5a60;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  
+  
+}
+
+.headDiv a:nth-child(1){
+ margin-left: 240px;
+ color: white;
+ text-decoration: none;
+  
+}
+.headDiv a:nth-child(2){
+ margin-left: 40px;
+ color: white;
+ text-decoration: none;
+  
+}
+.headDiv a:nth-child(3){
+ margin-left: 40px;
+ color: white;
+ text-decoration: none;
+  
+}
+.headDiv a:nth-child(4){
+ margin-left: 40px;
+ color: white;
+ text-decoration: none;
+  
+}
+.headDiv a:nth-child(5){
+ margin-left: 40px;
+ color: white;
+ text-decoration: none;
+  
+}
+
+.headDiv2{
+  position: absolute;
+  top: 110px;
+  width: 100%;
+  height: 1000px;
+  background: lightgrey;
+  
+  /* display: grid; */
+  /* align-items: center; */
+}
+.headDiv2_1{
+  width: 68%;
+  height: 20px;
+  background: white;
+  position: relative;
+  top: 30px;
+  left: 230px;
+  padding: 11px;
+
+}
+
+.headDiv2_1 a:nth-child(1){
+  margin-left: 5px;
+  text-decoration: none;
+  color: grey;
+  font-weight: bolder;
+}
+.headDiv2_1 a:nth-child(2){
+  margin-left: 30px;
+  text-decoration: none;
+  color: grey;
+  font-weight: bolder;
+}
+.headDiv2_1 a:nth-child(3){
+  margin-left: 30px;
+  text-decoration: none;
+  color: grey;
+  font-weight: bolder;
+
+}
+
+.headDiv2_2{
+  margin-top: 70px;
+  margin-left: 415px;
+  /* background: yellow; */
+}
+.headDiv2_2 div:nth-child(1){
+  margin-left: 120px;
+  color: grey;
+  
+}
+.headDiv2_2 div:nth-child(2){
+  /* margin-left: 40px; */
+  color: grey;
+}
+
+.headDiv2_3{
+  height: 700px;
+  width: 70%;
+  /* background: yellow; */
+  margin-top: 10px ;
+  margin-left: 230px;
+  display: flex;
+}
+
+.box{
+  height: 650px;
+  width: 65%;
+  background: white;
+  box-shadow: 0px 2px 2px black;
+}
+
+.mainBox{
+  height: 500px;
+  width: 32%;
+  /* background: red; */
+  margin-left: 30px;
+  display: grid;
+  
+}
+
+.box1{
+  height:240px;
+  width: 100%;
+  background: url('./images/digital-album-small.png');
+  background-repeat: no-repeat;
+}
+.box2{
+  height:240px;
+  width: 100%;
+  background: url('./images/own-video-story-small.png');
+  margin-top: 20px;
+}
+
+.box div:nth-child(1){
+  color: gray;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.box div:nth-child(2){
+  color: gray;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.box div:nth-child(3){
+  height: 300px;
+  width: 300px;
+  box-shadow: 0px 0px 3px black;
+  
+
+  margin: 50px auto;
+}
+.box div:nth-child(4){
+  text-align: left;
+  margin-bottom: 10px;  
+}
+.box div:nth-child(6){
+  text-align: left;
+  margin-top: 10px;  
+}
+
+hr{
+  width: 90%;
+  margin-left: 10px;
+}
+

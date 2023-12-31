@@ -168,13 +168,13 @@ ul li:nth-child(3){
 .box1{
   height:240px;
   width: 100%;
-  background: url('./images/digital-album-small.png');
+  background: url('../images/digital-album-small.png');
   background-repeat: no-repeat;
 }
 .box2{
   height:240px;
   width: 100%;
-  background: url('./images/own-video-story-small.png');
+  background: url('../images/own-video-story-small.png');
   margin-top: 20px;
 }
 
